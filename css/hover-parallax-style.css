@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.body-container {
+    min-height: 100vh;
+    width: 100vw;
+    background-color: rgb(16, 4, 48);
+
+}
+
+.hover-parallax {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/*----- Geometric shapes -----*/
+
+#main-circle {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+}
+
+#circle-01 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 23%;
+    left: 40%;
+    z-index: 4;
+    background-color: skyblue;
+} 
+
+#circle-02 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    z-index: 4;
+    background-color: yellow;
+} 
+
+#circle-03 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: absolute;
+    top: 60%;
+    left: 60%;
+    z-index: 4;
+    background-color: palegreen;
+}
+
+.sky-blue {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: skyblue; 
+    position: absolute;
+}

@@ -1,0 +1,33 @@
+/* ---------------------------- Global Fonts ----------------------------*/
+
+@font-face {
+    font-family: Awaragira;
+    src: url(../assets/fonts/Awaragira-Light.ttf);
+}
+
+@font-face {
+    font-family: Inter;
+    src: url(../assets/fonts/Inter-Regular.ttf);
+}
+
+/* ---------------------------- Global Elements ----------------------------*/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* ---------------------------- Global Classes ----------------------------*/
+
+.awaragira {
+    font-family: 'Awaragira';
+}
+
+.body-width {
+    width: 86%;
+    max-width: 1300px;
+    margin: 0 auto;
+}
