@@ -1,0 +1,66 @@
+@font-face {
+    font-family: syne;
+    src: url(../assets/fonts/Syne-VariableFont_wght.ttf) format('truetype');
+    font-weight: 400 800;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #D5DBE2;
+}
+
+.section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#v-font-block {
+    position: fixed;
+    z-index: 10;
+    width: 60vw;
+}
+
+h1.v-font {
+    font-family: syne;
+    font-size: 15vw;
+    line-height: 0.8em;
+    margin: 0;
+    animation: font-anim 3s infinite;
+}
+
+div.bg-deco {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1.deco {
+    font-family: syne;
+    font-size: 15vw;
+    font-weight: 800;
+    line-height: 0.9em;
+    margin: 0;
+    color: #7FE817;
+}
+
+.bg-deco div.circle {
+    width: 40vw;
+    height: 40vw;
+    border-radius: 50%;
+    background-color: #7FE817;
+    margin-right: 7%;
+}
+
+@keyframes font-anim {
+    0% {font-variation-settings: "wght" 600;}
+    50% {font-variation-settings: "wght" 800;}
+    100% {font-variation-settings: "wght" 600;}
+}
